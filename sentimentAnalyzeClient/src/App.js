@@ -60,6 +60,7 @@ class App extends React.Component {
 
     this.setState({sentiment:false});
     let url = ".";
+    
     if(this.state.mode === "url") {
       url = url+"/url/emotion?url="+document.getElementById("textinput").value;
     } else {

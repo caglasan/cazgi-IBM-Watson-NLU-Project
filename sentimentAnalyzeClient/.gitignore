@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+sentimentAnalyzeClient/node_modules
+sentimentAnalyzeServer/node_modules
+sentimentAnalyzeServer/client
